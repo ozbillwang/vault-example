@@ -2,7 +2,7 @@
 
 ### Prerequisite
 
-- `kubernetes cluster` - it can be minikube, kops, kubernetes from Docker for Mact, kubeadm, and so on.
+- `kubernetes cluster` - it can be minikube, kops, kubernetes from Docker for Mac (or Docker for windows), k3s, kind, kubeadm, rke, eks, ake, gke, and so on.
 - `kubectl` - https://kubernetes.io/docs/tasks/tools/install-kubectl/
 - `helm chart` - https://helm.sh/
 - `kubectx` - Faster way to switch between clusters and namespaces in kubectl (https://github.com/ahmetb/kubectx - Connect to preview )
