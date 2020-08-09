@@ -9,8 +9,9 @@
 - `helm diff` - A helm plugin that shows a diff explaining what a helm upgrade would change (https://github.com/databus23/helm-diff)
 - `k9s` - https://github.com/derailed/k9s
 
-Installation
+### Installation on Mac
 ```
+brew install minikube
 brew install kubectl 
 brew install helm
 brew install kubectx
@@ -18,7 +19,8 @@ brew install k9s
 
 helm plugin install https://github.com/databus23/helm-diff
 ```
+### Vault installation via helm
 
-### reference: 
+Reference: 
 
 https://learn.hashicorp.com/tutorials/vault/kubernetes-minikube?in=vault/kubernetes
