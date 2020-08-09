@@ -39,3 +39,14 @@ helm plugin install https://github.com/databus23/helm-diff
 Reference: 
 
 https://learn.hashicorp.com/tutorials/vault/kubernetes-minikube?in=vault/kubernetes
+
+### application Dockerfile
+
+The author doesn't provide the `Dockerfile` for application image `burtlo/exampleapp-ruby:k8s`, I have reverse engineering it and save the folder [exampleapp-ruby](exampleapp-ruby)
+
+You can build the image by yourself
+
+```
+cd exampleapp-ruby
+docker build -t exampleapp-ruby .
+```
