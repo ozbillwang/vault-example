@@ -40,7 +40,7 @@ Reference:
 
 https://learn.hashicorp.com/tutorials/vault/kubernetes-minikube?in=vault/kubernetes
 
-### application Dockerfile
+### Web application Dockerfile
 
 The author doesn't provide the `Dockerfile` for application image `burtlo/exampleapp-ruby:k8s`, I have reverse engineering it and save the folder [exampleapp-ruby](exampleapp-ruby)
 
