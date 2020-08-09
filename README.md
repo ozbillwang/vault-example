@@ -44,6 +44,8 @@ https://learn.hashicorp.com/tutorials/vault/kubernetes-minikube?in=vault/kuberne
 
 The author doesn't provide the `Dockerfile` for application image `burtlo/exampleapp-ruby:k8s`, I have reverse engineering it and save the folder [exampleapp-ruby](exampleapp-ruby)
 
+It will be useful to troubleshooting and reference if you can't run the web application properly. 
+
 You can build the image by yourself
 
 ```
