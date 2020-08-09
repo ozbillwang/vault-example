@@ -9,6 +9,21 @@
 - `helm diff` - A helm plugin that shows a diff explaining what a helm upgrade would change (https://github.com/databus23/helm-diff)
 - `k9s` - https://github.com/derailed/k9s
 
+### Install Nginx ingress controller
+
+```
+# work in namespace "ingress-nginx"
+kubectl create ns ingress-nginx
+kubens ingress-nginx
+
+# https://kubernetes.github.io/ingress-nginx/deploy/#docker-for-mac
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm install ingress ingress-nginx/ingress-nginx
+
+# check health
+kubectl get services -o wide
+```
+
 ### Installation on Mac
 ```
 brew install minikube
